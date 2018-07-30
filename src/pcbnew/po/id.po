@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-07-07 21:24+0700\n"
-"PO-Revision-Date: 2018-07-14 20:53+0700\n"
+"PO-Revision-Date: 2018-07-25 12:31+0700\n"
 "Last-Translator: Triyan W. Nugroho <triyan.wn@gmail.com>\n"
 "Language-Team: KiCad Indonesia\n"
 "Language: id\n"
@@ -3859,7 +3859,7 @@ msgstr ""
 #: pcbnew_general_operations.adoc:191
 #, no-wrap
 msgid "Units used in dialogs"
-msgstr ""
+msgstr "Penggunaan Satuan"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:198
@@ -3869,11 +3869,16 @@ msgid ""
 "icons/unit_inch.png[] image:images/icons/unit_mm.png[] However one can enter "
 "the unit used to define a value, when entering a new value."
 msgstr ""
+"Satuan yang digunakan untuk menampilkan nilai dari suatu dimensi adalah "
+"dalam inci dan mm. Satuan dapat dipilih melalui ikon di bilah alat bagian "
+"kiri: image:images/icons/unit_inch.png[] image:images/icons/unit_mm.png[]. "
+"Anda juga dapat memasukkan satuan yang digunakan untuk mendefinisikan suatu "
+"nilai, ketika memasukkan sebuah nilai yang baru."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:200
 msgid "Accepted units are:"
-msgstr ""
+msgstr "Satuan yang bisa digunakan antara lain:"
 
 #. type: delimited block |
 #: pcbnew_general_operations.adoc:207
@@ -3885,21 +3890,26 @@ msgid ""
 "| 25 *mi* | 25 mils, same as thou\n"
 "| 6 *mm*  | 6 mm\n"
 msgstr ""
+"| 1 *in*  | 1 inci\n"
+"| 1 *\"*   | 1 inci\n"
+"| 25 *th* | 25 thou\n"
+"| 25 *mi* | 25 mils, sama dengan thou\n"
+"| 6 *mm*  | 6 mm\n"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:210
 msgid "The rules are:"
-msgstr ""
+msgstr "Digunakan aturan sebagai berikut:"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:212
 msgid "Spaces between the number and the unit are accepted."
-msgstr ""
+msgstr "Diperbolehkan menggunakan spasi antara angka dan satuannya."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:213
 msgid "Only the first two letters are significant."
-msgstr ""
+msgstr "Hanya dua huruf pertama yang dianggap penting."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:214
@@ -3908,12 +3918,15 @@ msgid ""
 "period (`.`) can be used as well. Therefore `1,5` and `1.5` are the same in "
 "French."
 msgstr ""
+"Di negara-negara yang menggunakan pemisah desimal selain tanda titik, tanda "
+"titik (`.`) juga tetap dapat digunakan. Dengan demikian, di Perancis "
+"penulisan `1,5` dan `1.5` adalah sama."
 
 #. type: Title ===
 #: pcbnew_general_operations.adoc:215
 #, no-wrap
 msgid "Top menu bar"
-msgstr ""
+msgstr "Bilah Menu Atas"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:218
@@ -3921,24 +3934,26 @@ msgid ""
 "The top menu bar provides access to the files (loading and saving), "
 "configuration options, printing, plotting and the help files."
 msgstr ""
+"Bilah menu atas digunakan untuk membuka dan menyimpan berkas, pengaturan "
+"konfigurasi, mencetak, 'plotting' dan mengakses bantuan."
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:219
 #, no-wrap
 msgid "images/Pcbnew_top_menu_bar.png"
-msgstr ""
+msgstr "images/Pcbnew_top_menu_bar.png"
 
 #. type: Title ====
 #: pcbnew_general_operations.adoc:221
 #, no-wrap
 msgid "The File menu"
-msgstr ""
+msgstr "Menu 'File'"
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:223
 #, no-wrap
 msgid "images/Pcbnew_file_menu.png"
-msgstr ""
+msgstr "images/Pcbnew_file_menu.png"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:226
@@ -3947,35 +3962,38 @@ msgid ""
 "well as printing and plotting the circuit board. It enables the export (with "
 "the format GenCAD 1.4) of the circuit for use with automatic testers."
 msgstr ""
+"Menu 'File' digunakan untuk membuka dan menyimpan berkas PCB, serta untuk "
+"mencetak dan 'plotting' papan sirkuit. Anda juga bisa mengekspor sirkuit ("
+"dengan format GenCAD 1.4) untuk digunakan oleh penguji otomatis."
 
 #. type: Title ====
 #: pcbnew_general_operations.adoc:227
 #, no-wrap
 msgid "Edit menu"
-msgstr ""
+msgstr "Menu 'Edit'"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:230
 msgid "Allows some global edit actions:"
-msgstr ""
+msgstr "Menu ini digunakan untuk mengakses perintah-perintah pengeditan umum:"
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:231
 #, no-wrap
 msgid "images/Pcbnew_edit_menu.png"
-msgstr ""
+msgstr "images/Pcbnew_edit_menu.png"
 
 #. type: Title ====
 #: pcbnew_general_operations.adoc:233
 #, no-wrap
 msgid "View menu"
-msgstr ""
+msgstr "Menu 'View'"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:236 pcbnew_general_operations.adoc:284
 #: pcbnew_general_operations.adoc:294 pcbnew_general_operations.adoc:309
 msgid "Allows:"
-msgstr ""
+msgstr "Digunakan untuk:"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:238
@@ -3984,37 +4002,40 @@ msgid ""
 "other elements. Also enables the display of elements to be turned on and "
 "off)."
 msgstr ""
+"Menampilkan/menonaktifkan 'Layers Manager' (untuk memilih lapisan-lapisan "
+"dan elemen lain yang akan ditampilkan, serta mengaktifkan/menonaktifkan "
+"tampilan suatu elemen)."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:239
 msgid "Hide/Show the Microwave toolbar."
-msgstr ""
+msgstr "Menampilkan/menonaktifkan 'Microwave Toolbar'."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:240
 msgid "Display Library browser and 3D viewer."
-msgstr ""
+msgstr "Menampilkan 'Library Browser' dan '3D Viewer'."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:241
 msgid "Zoom functions"
-msgstr ""
+msgstr "Memperbesar/memperkecil tampilan layar ('Zoom')."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:242
 msgid "Setting grid and units"
-msgstr ""
+msgstr "Pengaturan grid dan satuan."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:243
 msgid "Select Drawing mode and Contrast mode"
-msgstr ""
+msgstr "Memilih 'Drawing Mode' dan 'Contrast Mode'."
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:244
 #, no-wrap
 msgid "images/Pcbnew_view_menu.png"
-msgstr ""
+msgstr "images/Pcbnew_view_menu.png"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:247
@@ -4030,34 +4051,36 @@ msgstr ""
 #. type: Plain text
 #: pcbnew_general_operations.adoc:251
 msgid "Opens the 3D Viewer. Here is a sample:"
-msgstr ""
+msgstr "Membuka '3D Viewer'. Berikut contoh tampilan '3D Viewer':"
 
 #. type: Target for macro image
 #: pcbnew_general_operations.adoc:252
 #, no-wrap
 msgid "images/Sample_3D_board.png"
-msgstr ""
+msgstr "images/Sample_3D_board.png"
 
 #. type: Title ====
 #: pcbnew_general_operations.adoc:254
 #, no-wrap
 msgid "Setup menu"
-msgstr ""
+msgstr "Menu 'Setup'"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:257
 msgid "Provides access to 2 dialogs:"
-msgstr ""
+msgstr "Digunakan untuk mengakses kotak dialog:"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:259
 msgid "Setting Layers (number, enabled and layers names)"
 msgstr ""
+"'Layers Setup' (pengaturan jumlah lapisan, nama-nama lapisan, dan lapisan "
+"yang diaktifkan)"
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:260
 msgid "Setting Design Rules (tracks and vias sizes, clearances)."
-msgstr ""
+msgstr "'Design Rules' (pengaturan ukuran jalur dan via, jarak antar jalur)."
 
 #. type: Plain text
 #: pcbnew_general_operations.adoc:262
